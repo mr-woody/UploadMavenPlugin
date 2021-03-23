@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="UploadMavenPlugin.app" target="1.8" />
+      <module name="UploadMavenPlugin.jitpack" target="1.8" />
+      <module name="UploadMavenPlugin.library2" target="1.8" />
+      <module name="UploadMavenPlugin.uploadplugin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

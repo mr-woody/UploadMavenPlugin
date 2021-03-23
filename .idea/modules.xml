@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UploadMavenPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/UploadMavenPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/include/UploadMavenPlugin.include.iml" filepath="$PROJECT_DIR$/.idea/modules/include/UploadMavenPlugin.include.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jitpack/UploadMavenPlugin.jitpack.iml" filepath="$PROJECT_DIR$/.idea/modules/jitpack/UploadMavenPlugin.jitpack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javalib/UploadMavenPlugin.library1.iml" filepath="$PROJECT_DIR$/.idea/modules/javalib/UploadMavenPlugin.library1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library2/UploadMavenPlugin.library2.iml" filepath="$PROJECT_DIR$/.idea/modules/library2/UploadMavenPlugin.library2.iml" />
+    </modules>
+  </component>
+</project>

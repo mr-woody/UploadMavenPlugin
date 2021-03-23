@@ -1,0 +1,2 @@
+include ':include'
+include ':library2', ':library1', ':jitpack'
