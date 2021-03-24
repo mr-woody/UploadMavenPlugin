@@ -3,7 +3,7 @@
 > 为简化Android Library上传到jitpack.io的流程，简化相关配置
 
 ### 最新版本号
-   [[](https://jitpack.io/v/mr-woody/UploadMavenPlugin.svg)](https://jitpack.io/#mr-woody/UploadMavenPlugin)
+ [![](https://jitpack.io/v/mr-woody/UploadMavenPlugin.svg)](https://jitpack.io/#mr-woody/UploadMavenPlugin)
 ### 如何接入
 
 ```
