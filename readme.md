@@ -18,7 +18,7 @@ buildscript {
     dependencies {
         ...
         classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
-        classpath 'com.github.mr-woody.UploadMavenPlugin:jitpack:1.1.3'
+        classpath 'com.github.mr-woody.UploadMavenPlugin:jitpack:1.2.0'
 }
 
 
@@ -32,12 +32,15 @@ buildscript {
 apply plugin: 'jitpack.io.upload'
 jitpack{
     module{
+        //对应的library name
         name "library1"
-        group "com.woodys.upload"
+        //对应格式为com.github.[YourUsername],例如：https://github.com/mr-woody/UploadMavenPlugin ,那么对应的UserName为：mr-woody
+        group "com.github.mr-woody"
     }
     module{
+        //对应的library name
         name "library2"
-        group "com.woodys.upload"
+        group "com.github.mr-woody"
     }
 }
 ```
