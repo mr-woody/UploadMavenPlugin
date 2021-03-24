@@ -3,7 +3,7 @@
 > 为简化Android Library上传到jitpack.io的流程，简化相关配置
 
 ### 最新版本号
-   [![](https://jitpack.io/v/mr-woody/UploadMavenPlugin.svg)](https://jitpack.io/#mr-woody/UploadMavenPlugin)
+   [[](https://jitpack.io/v/mr-woody/UploadMavenPlugin.svg)](https://jitpack.io/#mr-woody/UploadMavenPlugin)
 ### 如何接入
 
 ```
@@ -55,4 +55,4 @@ jitpack{
            com.github.[YourUsername]:[GithubProjectName]:[Tag Version or Release Version]
         ```
       同理使用上面的插件，只配置一个module，同样符合上面的规则。
-    3. 当前项目使用了上述插件以后，需要上传代码到github上，执行github上的打一个新的Tag或者一个新的Release，最后就是去https://jitpack.io/网站，输入你当前git项目的path地址，通过Look up按钮，选择你在github上对应的版本号，执行Get it.
+    3. 当前项目使用了上述插件以后，需要上传代码到github上，执行github上的打一个新的Tag或者一个新的Release，最后就是去https://jitpack.io/ 网站，输入你当前git项目的path地址，通过Look up按钮，选择你在github上对应的版本号，执行Get it.
