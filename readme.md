@@ -50,8 +50,8 @@ jitpack{
    
    1. jitPack针对的项目对象：github公开项目（public）
    2. jitPack发布library时,需要区分两种情况：
-     - 第一种： 当前项目就只有一个library的时候，那么发布后，gradle访问方式`只能`(重点强调,趟过坑人伤不起啊)是：com.github.[YourUsername]:[GithubProjectName]:[Tag Version or Release Version]
-     - 第二种： 当前项目中有2个及其以上的library的时候，那么发布后，gradle访问方式为：
+    第一种： 当前项目就只有一个library的时候，那么发布后，gradle访问方式`只能`(重点强调,趟过坑人伤不起啊)是：com.github.[YourUsername]:[GithubProjectName]:[Tag Version or Release Version]
+    第二种： 当前项目中有2个及其以上的library的时候，那么发布后，gradle访问方式为：
         ```
            com.github.[YourUsername].[GithubProjectName].[libraryName]:[Tag Version or Release Version]
            //或者
