@@ -45,7 +45,6 @@ jitpack{
 }
 ```
 
-
 ### jitpack.io 发布注意事项
    
    1. jitPack针对的项目对象：github公开项目（public）
