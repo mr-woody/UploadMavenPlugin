@@ -1,6 +1,5 @@
 apply plugin: 'groovy'
-apply plugin: 'maven'
-
+apply plugin: 'com.github.dcendents.android-maven'
 group = "com.github.mr-woody"
 
 dependencies {
