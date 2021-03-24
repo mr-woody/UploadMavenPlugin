@@ -1,5 +1,5 @@
 //调试代码
-uploadArchives {
+/*uploadArchives {
     configuration = configurations.archives
     repositories {
         mavenDeployer {
@@ -9,7 +9,7 @@ uploadArchives {
             repository(url: uri('../repo'))
         }
     }
-}
+}*/
 task sourcesJar(type: Jar, dependsOn: classes) {
     classifier = 'sources'
     from sourceSets.main.allSource
