@@ -22,7 +22,6 @@ allprojects {
     }
 }
 
-
 apply plugin: 'jitpack.io.upload'
 jitpack{
     module{
